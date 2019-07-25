@@ -1,0 +1,12 @@
+Package: modelkappa
+Type: Package
+Title: Calculates model-based kappa for agreement and association and their standard errors
+Version: 0.1.0
+Author: Aya Mitani
+Maintainer: The package maintainer <amitani@bu.edu>
+Description: Computes the population-based measures of agreement for binary classification, and agreement and association ordinal classification. The measures are  based on results from generalized linear mixed model (GLMM) with crossed-random effects. Observed agreement (and association) are estimated while minimizing chance agreement (and association).
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: ordinal
+RoxygenNote: 6.1.1
