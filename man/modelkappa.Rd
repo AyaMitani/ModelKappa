@@ -9,11 +9,11 @@ modelkappa(data, category, item, rater)
 \arguments{
 \item{data}{an optional data frame containing the variables providing \code{category}, \code{item}, and \code{rater}.}
 
-\item{category}{a vector that identifies the ratings or results.}
+\item{category}{a numerical vector that identifies the ratings or results (binary or >2 categories).}
 
-\item{item}{a vector that identifies the items to be rated.}
+\item{item}{a numerical vector that identifies the items to be rated (e.g. mammogram ids).}
 
-\item{rater}{a vector that identifies the raters.}
+\item{rater}{a numerical vector that identifies the raters (e.g. radiologist ids).}
 }
 \value{
 Outputs the estimated summary measures containing

@@ -3,9 +3,9 @@
 #' The \code{data} must be provided in case level or equivalently in `long' format that includes item identifiers, rater identifiers, and ratings (or categories).
 #'
 #' @param data an optional data frame containing the variables providing \code{category}, \code{item}, and \code{rater}.
-#' @param category a vector that identifies the ratings or results.
-#' @param item a vector that identifies the items to be rated.
-#' @param rater a vector that identifies the raters.
+#' @param category a numerical vector that identifies the ratings or results (binary or >2 categories).
+#' @param item a numerical vector that identifies the items to be rated (e.g. mammogram ids).
+#' @param rater a numerical vector that identifies the raters (e.g. radiologist ids).
 #'
 #' @return Outputs the estimated summary measures containing
 #' Number of observations, Number of categories, Number of items, Number of raters, Model-based kappa for agreement, its standard errors and 95% confidence intervals.
@@ -25,7 +25,7 @@ modelkappa <- function(data, category, item, rater){
   names(data)[names(data) == deparse(substitute(rater))] <- "rater"
   names(data)[names(data) == deparse(substitute(category))] <- "category"
 
-  modout <- (clmm(as.factor(category) ~ -1 + (1|item) + (1|rater),
+  modout <- (clmm(as.factor(category) ~ 1 + (1|item) + (1|rater),
                   link = "probit", threshold = "flexible", data=data))
 
   numobs <- modout$dims$n
