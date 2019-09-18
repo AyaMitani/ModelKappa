@@ -1,0 +1,15 @@
+#' Classification of carcinoma in situ of the uterine cervix
+#'
+#' A dataset containing evaluations by seven pathologists each independently classifying
+#' 118 histologic slides into one of the five ordinal categories of increasing disease severity.
+#' This data set is regarded as a classic example to evaluate agreement between multiple raters
+#' each classifying a sample of subjects' test results according to an ordinal classification scale.
+#'
+#' @format A data frame with 826 rows and 3 variables:
+#' \describe{
+#'   \item{Item}{unique patient identifier}
+#'   \item{Rater}{unique pathologist identifier}
+#'   \item{Cat}{ordinal assessment of disease, 1: negative, 2: atypical squamous hyperplasia, 3: carcinoma in situ, 4: squamous carcinoma with early stromal invasion, 5: invasive carcinoma}
+#' }
+#' @source \url{https://www.ncbi.nlm.nih.gov/pubmed/6045443}
+"holmdata"
