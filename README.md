@@ -9,3 +9,9 @@ library(devtools)
 devtools::install_github("AyaMitani/ModelKappa")
 library(ModelKappa)
 ```
+#### Use ModelKappa function to calculate model-based agreement (and association) for multiple raters each assessing multiple cases
+```
+data(holmdata)
+?ModelKappa 
+ModelKappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
+```
