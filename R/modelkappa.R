@@ -13,13 +13,13 @@
 #' @author Aya Mitani
 #' @examples
 #' data(holmdata)
-#' modelkappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
+#' ModelKappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
 #' @export
 #'
 #'
 
 
-modelkappa <- function(data, category, item, rater){
+ModelKappa <- function(data, category, item, rater){
 
   names(data)[names(data) == deparse(substitute(item))] <- "item"
   names(data)[names(data) == deparse(substitute(rater))] <- "rater"
