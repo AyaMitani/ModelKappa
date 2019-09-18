@@ -11,7 +11,7 @@ library(ModelKappa)
 ```
 #### Use ModelKappa function to calculate model-based agreement (and association) for multiple raters each assessing multiple cases
 ```
-data(holmdata)
 ?ModelKappa 
+data(holmdata)
 ModelKappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
 ```
