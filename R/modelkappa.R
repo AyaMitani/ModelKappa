@@ -1,6 +1,6 @@
 #' Function to calculate model-based kappa of agreement and association and their standard errors.
 #'
-#' The \code{data} must be provided in case level or equivalently in `long' format that includes item identifiers, rater identifiers, and ratings (or categories).
+#' The \code{data} must be provided in case level or equivalently in `long' format that includes item (or patient) identifiers, rater identifiers, and ratings (or categories).
 #'
 #' @param data an optional data frame containing the variables providing \code{category}, \code{item}, and \code{rater}.
 #' @param category a numerical vector that identifies the ratings or results (binary or >2 categories).

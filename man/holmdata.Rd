@@ -3,7 +3,7 @@
 \docType{data}
 \name{holmdata}
 \alias{holmdata}
-\title{Classification of carcinoma in situ of the uterine cervix}
+\title{Classification of carcinoma \emph{in situ} of the uterine cervix}
 \format{A data frame with 826 rows and 3 variables:
 \describe{
   \item{Item}{unique patient identifier}

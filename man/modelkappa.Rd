@@ -21,7 +21,7 @@ Number of observations, Number of categories, Number of items, Number of raters,
 If number of categories is >2, then will also output Model-based kappa for association, its standard errors and 95% confidence intervals.
 }
 \description{
-The \code{data} must be provided in case level or equivalently in `long' format that includes item identifiers, rater identifiers, and ratings (or categories).
+The \code{data} must be provided in case level or equivalently in `long' format that includes item (or patient) identifiers, rater identifiers, and ratings (or categories).
 }
 \examples{
 data(holmdata)

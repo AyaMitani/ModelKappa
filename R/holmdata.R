@@ -1,4 +1,4 @@
-#' Classification of carcinoma in situ of the uterine cervix
+#' Classification of carcinoma \emph{in situ} of the uterine cervix
 #'
 #' A dataset containing evaluations by seven pathologists each independently classifying
 #' 118 histologic slides into one of the five ordinal categories of increasing disease severity.
