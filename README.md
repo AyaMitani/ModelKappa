@@ -13,9 +13,26 @@ library(devtools)
 devtools::install_github("AyaMitani/ModelKappa")
 library(ModelKappa)
 ```
+### About the data sets
+#### 'bcdata': Data from Bladder Cancer Screening Study
+This is a dataset containing evaluations by eight genitourinary pathologists reviewing 25 bladder cancer specimens.
+Each pathologist provided a binary classification for each specimen according to whether or not they considered the sample to be non-invasive or invasive bladder cancer. More details of the study are available from: Compérat, E. et. al. (2013) An interobserver reproducibility study on invasiveness of bladder cancer using virtual microscopy and heatmaps. Histopathology, 63, 756– 766. doi: [org/10.1111/his.12214](https://doi.org/10.1111/his.12214)
+
+To view the data dictionary, see the documentation by typing
+```
+?bcdata
+```
+
+#### 'holmdata': Classification of carcinoma in situ of the uterine cervix
+This is a dataset containing evaluations by seven pathologists each independently classifying 118 histologic slides into one of the five ordinal categories of increasing disease severity. This data set is regarded as a classic example to evaluate agreement between multiple raters each classifying a sample of subjects' test results according to an ordinal classification scale. More details of the study are available from: Holmquist, N.D., McMahan, C.A., and Williams, O.D. (1967) Variability in classification of carcinoma in situ of the uterine cervix. Arch. Pathol, 84: 334-345. PMID: [6045446](https://www.ncbi.nlm.nih.gov/pubmed/6045443)
+
+To view the data dictionary, see the documentation by typing
+```
+?holmdata
+```
+
 ### Use ModelKappa function to calculate model-based agreement (and association)
 ```
 ?ModelKappa 
-data(holmdata)
 ModelKappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
 ```
