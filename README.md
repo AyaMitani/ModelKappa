@@ -31,7 +31,7 @@ To view the data dictionary, see the documentation by typing
 ?holmdata
 ```
 
-### Use ModelKappa function to calculate model-based agreement (and association)
+### Use modelkappa function to calculate model-based agreement (and association)
 ```
 ?modelkappa 
 modelkappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
