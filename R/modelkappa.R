@@ -87,7 +87,7 @@ modelkappa <- function(data, category, item, rater){
           "\n","Number of items:", numitems,
           "\n","Number of raters:", numraters,
           "\n","Model-based kappa for agreement:", round(kappam,3),"(s.e. =",round(se.kappam,3),")", "95% CI =", round(lcl.kappam,3),",",round(ucl.kappam,3),
-          "\n","MOdel-based Kappa for association:" ,round(kappawm,3),"(s.e. =",round(se.kappawm,3),")", "95% CI =", round(lcl.kappawm,3),",",round(ucl.kappawm,3),
+          "\n","Model-based Kappa for association:" ,round(kappawm,3),"(s.e. =",round(se.kappawm,3),")", "95% CI =", round(lcl.kappawm,3),",",round(ucl.kappawm,3),
           "\n",
           "\n")
     }
