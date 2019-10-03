@@ -6,7 +6,7 @@ Calculate model-based kappa of agreement and association and their standard erro
 - Nelson, K. P. and Edwards, D. (2008), On population‐based measures of agreement for binary classifications. Canadian Journal of Statistics, 36: 411-426. doi: [10.1002/cjs.5550360306](https://onlinelibrary.wiley.com/action/showCitFormats?doi=10.1002%2Fcjs.5550360306)
 
 ### R installation Instructions
-Copy and paste the following code to install modelkappa package in R.
+Copy and paste the following code to install modelkappa package in R. If this is your first time installing the devtools package, you may need to restart R after executing the first line.
 ```
 install.packages("devtools")
 library(devtools)
