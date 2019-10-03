@@ -34,7 +34,7 @@ To view the data dictionary, see the documentation by typing
 ### Use modelkappa function to calculate model-based agreement (and association)
 ```
 ?modelkappa 
-modelkappa(data=holmdata, cat=Cat, item=Item, rater=Rater)
+modelkappa(data=holmdata, category=Cat, item=Item, rater=Rater)
 ```
 The output will include Number of observations, Number of categories, Number of items, Number of raters, Model-based kappa for agreement, its standard errors and 95% confidence intervals. If number of categories is >2, then will also output Model-based kappa for association, its standard errors and 95% confidence intervals. 
 
