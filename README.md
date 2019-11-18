@@ -39,3 +39,22 @@ modelkappa(data=holmdata, category=Cat, item=Item, rater=Rater)
 The output will include Number of observations, Number of categories, Number of items, Number of raters, Model-based kappa for agreement, its standard errors and 95% confidence intervals. If number of categories is >2, then will also output Model-based kappa for association, its standard errors and 95% confidence intervals. 
 
 Enjoy!
+
+
+### Citation
+
+To cite this repository, please use the following BibTex code
+```
+@software{aya_mitani_2019_3546381,
+  author       = {Aya Mitani},
+  title        = {AyaMitani/modelkappa: v1},
+  month        = nov,
+  year         = 2019,
+  publisher    = {Zenodo},
+  version      = {v1.0},
+  doi          = {10.5281/zenodo.3546381},
+  url          = {https://doi.org/10.5281/zenodo.3546381}
+}
+```
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3546381.svg)](https://doi.org/10.5281/zenodo.3546381)
+
